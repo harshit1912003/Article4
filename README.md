@@ -9,7 +9,7 @@ A = { -50, -49, …, -1, 1, 2, …, 50 }.
 
 ---
 
-## 2. Data Generation in Iterations (Normal Mixture)
+## 2. Data Generation in IterationsNORMAL
 
 Same 150 DMUs and I/O structure. Each entry is sampled from a two-component normal mixture:
 
