@@ -47,12 +47,12 @@ def stats(df, col):
     }
     return result
 
-os.makedirs("iterations", exist_ok=True)
+os.makedirs("./iterations", exist_ok=True)
 
 
 s = time.time()
 for i in range(10):
-        iter_dir = f'iterations/iter_{i}'
+        iter_dir = f'./iterations/iter_{i}'
         tree_dir = os.path.join(iter_dir, 'tree')
         os.makedirs(iter_dir, exist_ok=True)
         os.makedirs(tree_dir, exist_ok=True)

@@ -1,3 +1,4 @@
+# Article4
 ## 1. Data Generation in Iterations
 
 For this analysis, we consider a dataset of 150 DMUs, each with three inputs: X₁, X₂, and X₃.  
@@ -14,9 +15,9 @@ A = { -50, -49, …, -1, 1, 2, …, 50 }.
 Same 150 DMUs and I/O structure. Each entry is sampled from a two-component normal mixture:
 
 - With probability 0.5:  
-  – Distribution: Normal(mean = 25, variance = 8.3³)  
+  – Distribution: Normal(mean = 25, variance = 8.3^2)  
 - With probability 0.5:  
-  – Distribution: Normal(mean = –25, variance = 8.3²)  
+  – Distribution: Normal(mean = –25, variance = 8.3^2)  
 
 - DMUs 1–100 use features [X₁, X₂, X₃, Y₁, Y₂, Y₃]  
 - DMUs 101–150 use features [X₁, X₂, X₃, Y₁]  
